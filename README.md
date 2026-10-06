@@ -158,7 +158,7 @@ With this plugin, you can now create a dedicated QCP folder within your reposito
 
 -   [sf-audit](https://github.com/cclabsnz/sf-audit-plugin) (CloudCounsel, [@cclabsnz](https://github.com/cclabsnz))
 
-    Read-only security audit of a connected org. 88 checks across identity, access, data, code, integrations, monitoring and Agentforce/GenAI, correlated into named attack chains and scored as an A-F grade, with findings mapped to OWASP, SOC 2, ISO 27001 and other frameworks. Outputs html/md/json or a branded executive report and archives each run to show posture drift over time. Also pulls the free daily EventLogFile logs before the 1-day retention window drops them, and right-sizes connected app permissions from actual API usage.
+    Read-only security audit of a connected org. 93 checks across identity, access, data, code, integrations, monitoring and Agentforce/GenAI, correlated into named attack chains and scored as an A-F grade, with findings mapped to OWASP, SOC 2, ISO 27001 and other frameworks. Outputs html/md/json or a branded executive report and archives each run to show posture drift over time. Also pulls the free daily EventLogFile logs before the 1-day retention window drops them, right-sizes connected app permissions from actual API usage, and investigates Guest User Anomaly events into a cited verdict per wave (who it was, whether content came back, whether anyone logged in).
 
 ## Not plugins, but useful
 
